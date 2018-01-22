@@ -24,6 +24,10 @@ public class Frame extends JFrame
         CelestialBody neptune = CelestialBody.Neptune;
 
         CelestialBody moon = CelestialBody.Moon;
+        CelestialBody phobos = CelestialBody.Phobos;
+
+        CelestialBody ceres = CelestialBody.Ceres;
+        CelestialBody pluto = CelestialBody.Pluto;
 
         celestialBodies.add(sun);
         celestialBodies.add(mercury);
@@ -36,6 +40,12 @@ public class Frame extends JFrame
         celestialBodies.add(neptune);
 
         celestialBodies.add(moon);
+        celestialBodies.add(phobos);
+
+        celestialBodies.add(ceres);
+        celestialBodies.add(pluto);
+
+
 
         for(CelestialBody c : celestialBodies)
         {
